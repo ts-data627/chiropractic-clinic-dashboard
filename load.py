@@ -1,8 +1,3 @@
-
-# 3) main function that ties it all together
-
-# 4) logging throughout
-
 import os
 import logging
 import pandas as pd 
