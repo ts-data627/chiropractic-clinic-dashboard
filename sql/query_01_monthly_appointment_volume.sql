@@ -1,5 +1,8 @@
--- 1. Monthly appointment volume
+-- Query: Monthly appointment volume
 -- Business question: How is appointment volume trending month over month?
+-- Table: healthcare_records
+-- Author: Tevin S.
+-- Date: 2026-03
 WITH monthly AS (
     SELECT
         DATE_TRUNC('month', appt_date) AS month,
