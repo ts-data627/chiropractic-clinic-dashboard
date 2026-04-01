@@ -1,5 +1,8 @@
--- 6. Billed vs collected by month
+-- Query: Billed vs collected by month
 -- Business question: What is our collection rate trending over time?
+-- Table: healthcare_records
+-- Author: Tevin S.
+-- Date: 2026-03
 
 SELECT 
 	   DATE_TRUNC('month', payment_date::date) AS month,
