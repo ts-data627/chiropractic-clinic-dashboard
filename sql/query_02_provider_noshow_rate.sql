@@ -1,6 +1,8 @@
--- 2. No-show rate by provider
+-- Query: No-show rate by provider
 -- Business question: Which providers have the highest no-show rates?
-
+-- Table: healthcare_records
+-- Author: Tevin S.
+-- Date: 2026-03
 SELECT
     p.provider_id,
     p.name,
