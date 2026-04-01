@@ -1,5 +1,8 @@
--- 7. Patient age distribution
+-- Query: Patient age distribution
 -- Business question: What age groups make up our patient population?
+-- Table: healthcare_records
+-- Author: Tevin S.
+-- Date: 2026-03
 
 SELECT 
 	CASE
