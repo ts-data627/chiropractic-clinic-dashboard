@@ -1,5 +1,8 @@
--- 3. Revenue by provider
+-- Query: Revenue by provider
 -- Business question: Which providers are driving the most revenue?
+-- Table: healthcare_records
+-- Author: Tevin S.
+-- Date: 2026-03
 
 SELECT a.provider_id, p.name, ROUND(SUM(b.paid_amount)::numeric, 2) AS revenue
 FROM appointments a
