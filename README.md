@@ -3,7 +3,7 @@
 A production-style ETL pipeline that generates synthetic chiropractic clinic data, transforms and validates it with Python, loads it into a PostgreSQL database hosted on AWS RDS, and visualizes it through an interactive Streamlit dashboard.
 
 ## Status
-✅ Live and operational
+Live and operational
 
 ## What It Does
 
